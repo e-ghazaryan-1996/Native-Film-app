@@ -1,18 +1,12 @@
 import { SafeAreaProvider } from "react-native-safe-area-context"
 import { Text, StyleSheet, Image } from "react-native"
+import NavigationProvider from "@/components/providers/Navigation"
 
 export default function App() {
 	return (
-		<>
-		
-			<Text style={textSTyles.txt}>
-        A
-      </Text>
-			<Image
-				style={textSTyles.image}
-				source={require("@/assets/pictures/love.gif")}
-			/>
-		</>
+	 <SafeAreaProvider>
+		<NavigationProvider />
+	 </SafeAreaProvider>
 	)
 }
 
