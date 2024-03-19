@@ -1,0 +1,10 @@
+{
+	"trailingComma": "none",
+	"tabWidth": 2,
+	"useTabs": true,
+	"jsxSingleQuote": true,
+	"arrowParens": "avoid",
+	"semi": false,
+	"importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+	"importOrderSeparation": true
+}
