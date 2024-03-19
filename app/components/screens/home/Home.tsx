@@ -1,8 +1,13 @@
 import React from "react"
-import { Text } from "react-native"
+import { Text, View } from "react-native"
 
 const Home = () => {
-	return <Text>Hii</Text>
+
+	return (
+		<View className='mt-0'>
+			<Text className="text-lime-700">Open up App.js to start workingour app!</Text>
+		</View>
+	)
 }
 
 export default Home
