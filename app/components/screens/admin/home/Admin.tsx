@@ -1,7 +1,8 @@
 import React from "react"
+import { Text } from "react-native"
 
 const Admin = () => {
-	return <div>Admin</div>
+	return <Text>Admin</Text>
 }
 
 export default Admin

@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react"
+import { Text } from "react-native"
 
 const Auth = () => {
-  return (
-    <div>Auth</div>
-  )
+	return <Text>Auth </Text>
 }
 
 export default Auth
